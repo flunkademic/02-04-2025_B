@@ -1,0 +1,132 @@
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (main)
+$ history
+    1  git --version
+    2  cd C:\Users\pixel\Desktop\flunkademic-credentials\step-1\GIT
+    3  cd C:/Users/pixel/Desktop/flunkademic-credentials/step-1/GIT
+    4  git clone https://github.com/flunkademic/my-first-repo.git
+    5  ls
+    6  cd my-first-repo
+    7  notepad README.md
+    8  git status
+    9  git add README.md
+   10  git commit -m "Updated README with my first local edit"
+   11  git config --global user.email "flunkademic@gmail.com"
+   12  git config --global user.name "flunkademic"
+   13  git config --global user.email "flunkademic@gmail.com"
+   14  git commit -m "Updated README with my first local edit"
+   15  git push origin main
+   16  git branch
+   17  git branch new-feature
+   18  git checkout new-feature
+   19  git branch
+   20  notepad README.md
+   21  git status
+   22  git add README.md
+   23  git commit -m "Updated README in new-feature branch"
+   24  git checkout main
+   25  git merge new-feature
+   26  git push origin main
+   27  git branch -d new-feature
+   28  git push origin --delete new-feature
+   29  cd ..
+   30  mkdir my-responsive-header
+   31  cd my-responsive-header
+   32  git init
+   33  touch index.html style.css script.js
+   34  git status
+   35  git add .
+   36  git commit -m "Set up a new project"
+   37  git remote add origin https://github.com/flunkademic/my-responsive-header.git
+   38  git branch -M main
+   39  git push -u origin main
+   40  git pull origin main --rebase
+   41  git push -u origin main
+   42  git pull origin main
+   43  git stash
+   44  git stash
+   45  git pull origin main
+   46  git stash pop
+   47  git add index.html
+   48  git commit -m "Resolved merge conflict in index.html"
+   49  git push origin main
+   50  cd C:/Users/pixel/Desktop/_projects/demo
+   51  git clone https://github.com/flunkademic/static-site-vite-tailwind.git
+   52  cd static-site-vite-tailwind
+   53  npm create vite@latest .
+   54  npm install
+   55  npm install -D tailwindcss postcss autoprefixer
+   56  npc tailwindcss init -p
+   57  npm install tailwindcss @tailwindcss/vite
+   58  npm run dev
+   59  npm run dev
+   60  cd C:\Users\pixel\Desktop\_projects\demo\static-site-vite-tailwind
+   61  cd C:/Users/pixel/Desktop/_projects/demo/static-site-vite-tailwind
+   62  npm run dev
+   63  cd C:\Users\pixel\Desktop\_projects\demo\static-site-vite-tailwind
+   64  cd C:/Users/pixel/Desktop/_projects/demo/static-site-vite-tailwind
+   65  npm run dev
+   66  cd C:/Users/pixel/Desktop/_projects/demo-1
+   67  git clone https://github.com/flunkademic/02-04-2025.git
+   68  cd 02-04-2025
+   69  git status
+   70  git init
+   71  git status
+   72  git add .
+   73  git status
+   74  git commit -m "Added extra line in README file"
+   75  git push -u origin main
+   76  git add .
+   77  git commit -m "new steps"
+   78  git push origin main
+   79  git pull origin main
+   80  git add ,
+   81  git add .
+   82  git commit -m "added index.html"
+   83  git push
+   84  git status
+   85  git add .
+   86  git status
+   87  git commit -m "extra title added"
+   88  git push origin main
+   89  git add .
+   90  git commit -m "renamed index temp"
+   91  git push origin main
+   92  git pull origin main
+   93  git add .
+   94  git status
+   95  git commit -m "new index"
+   96  git push origin main
+   97  git status
+   98  git add .
+   99  git push origin main
+  100  git status
+  101  git rm index-temp.html
+  102  ls
+  103  cd C:/Users/pixel/Desktop/codecademy/1
+  104  git clone https://github.com/flunkademic/02-04-2025_B.git
+  105  ls
+  106  cd 02-04-2025_B
+  107  ls
+  108  git checkout -b print_changes
+  109  nano README.md
+  110  nano new_file.py
+  111  ls
+  112  git add .
+  113  git status
+  114  git commit -m "This is a new branch"
+  115  git push --set-upstream origin print_changes
+  116  git status
+  117  git checkout -
+  118  nano new_file.txt
+  119  git add new_file.txt
+  120  git commit -m "A new Git Bash command line FILE example"
+  121  git push origin main
+  122  git pull
+  123  ls
+  124  cat new_file.txt
+  125  clear
+  126  history
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (main)
+$
