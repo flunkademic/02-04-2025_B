@@ -1,0 +1,177 @@
+
+pixel@laura MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+
+pixel@laura MINGW64 /
+$ cd C:/Users/pixel/Desktop/codecademy/1
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1
+$ git clone https://github.com/flunkademic/02-04-2025_B.git
+Cloning into '02-04-2025_B'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1
+$ ls
+02-04-2025_B/
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1
+$ cd 02-04-2025_B
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (main)
+$ ls
+README.md
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (main)
+$ git checkout -b print_changes
+Switched to a new branch 'print_changes'
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ nano README.md
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ nano new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ ls
+README.md  new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git add .
+warning: in the working copy of 'new_file.py', LF will be replaced by CRLF the next time Git touches it
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git status
+On branch print_changes
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   new_file.py
+
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git commit -m "This is a new branch"
+[print_changes 898a777] This is a new branch
+ 2 files changed, 4 insertions(+)
+ create mode 100644 new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git push --set-upstream origin print_changes
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 419 bytes | 209.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'print_changes' on GitHub by visiting:
+remote:      https://github.com/flunkademic/02-04-2025_B/pull/new/print_changes
+remote:
+To https://github.com/flunkademic/02-04-2025_B.git
+ * [new branch]      print_changes -> print_changes
+branch 'print_changes' set up to track 'origin/print_changes'.
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$
+
+pixel@laura MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+
+pixel@laura MINGW64 /
+$ cd C:/Users/pixel/Desktop/codecademy/1
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1
+$ git clone https://github.com/flunkademic/02-04-2025_B.git
+Cloning into '02-04-2025_B'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1
+$ ls
+02-04-2025_B/
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1
+$ cd 02-04-2025_B
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (main)
+$ ls
+README.md
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (main)
+$ git checkout -b print_changes
+Switched to a new branch 'print_changes'
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ nano README.md
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ nano new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ ls
+README.md  new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git add .
+warning: in the working copy of 'new_file.py', LF will be replaced by CRLF the next time Git touches it
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git status
+On branch print_changes
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   new_file.py
+
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git commit -m "This is a new branch"
+[print_changes 898a777] This is a new branch
+ 2 files changed, 4 insertions(+)
+ create mode 100644 new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git push --set-upstream origin print_changes
+Enume
+  GNU nano 8.3                      new_file.txt                      Modified
+On branch print_changes
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   new_file.py
+
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git commit -m "This is a new branch"
+[print_changes 898a777] This is a new branch
+ 2 files changed, 4 insertions(+)
+ create mode 100644 new_file.py
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$
+
+pixel@laura MINGW64 ~/Desktop/codecademy/1/02-04-2025_B (print_changes)
+$ git push --set-upstream origin print_changes
+Enume
+
+
+^G Help      ^O Write Out ^F Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line
